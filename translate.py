@@ -1,6 +1,9 @@
+from load_sys_path import *
+load_sys()
+
 from inference.engine import Model
 
-model = Model("/media/sreetej/Extreme SSD2/Sreetej/smolagents/indictrans/en-indic/fairseq_model", model_type="fairseq")
+model = Model(MODEL_PATH, model_type="fairseq")
 
 
 
